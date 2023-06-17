@@ -1,0 +1,2219 @@
+06/16/2023 06:34:45 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 06:34:45 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 06:34:45 PM UTC 172.31.196.1 - - [16/Jun/2023 18:34:45] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/16/2023 06:34:45 PM UTC 172.31.196.1 - - [16/Jun/2023 18:34:45] "GET / HTTP/1.1" 200 -
+06/16/2023 06:34:46 PM UTC 172.31.196.1 - - [16/Jun/2023 18:34:46] "GET / HTTP/1.1" 200 -
+06/16/2023 06:34:48 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 06:34:48 PM UTC Start polling.
+06/16/2023 06:38:22 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 06:38:22 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 06:38:23 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 06:38:23 PM UTC Start polling.
+06/16/2023 06:38:29 PM UTC 172.31.196.1 - - [16/Jun/2023 18:38:29] "GET / HTTP/1.1" 200 -
+06/16/2023 06:38:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 06:38:54 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 06:38:54 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 06:38:54 PM UTC Start polling.
+06/16/2023 06:38:55 PM UTC 172.31.196.1 - - [16/Jun/2023 18:38:55] "GET / HTTP/1.1" 200 -
+06/16/2023 06:41:16 PM UTC 172.31.196.1 - - [16/Jun/2023 18:41:16] "GET / HTTP/1.1" 200 -
+06/16/2023 06:41:16 PM UTC 172.31.196.1 - - [16/Jun/2023 18:41:16] "GET / HTTP/1.1" 200 -
+06/16/2023 06:48:40 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 06:48:40 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 06:48:40 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 06:48:40 PM UTC Start polling.
+06/16/2023 06:48:41 PM UTC 172.31.196.1 - - [16/Jun/2023 18:48:41] "GET / HTTP/1.1" 200 -
+06/16/2023 06:59:42 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 06:59:42 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 06:59:42 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 06:59:42 PM UTC Start polling.
+06/16/2023 06:59:43 PM UTC 172.31.196.1 - - [16/Jun/2023 18:59:43] "GET / HTTP/1.1" 200 -
+06/16/2023 06:59:53 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 32, in start_command
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/16/2023 07:00:27 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 32, in start_command
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/16/2023 07:01:05 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:01:05 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:01:06 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:01:06 PM UTC Start polling.
+06/16/2023 07:01:06 PM UTC 172.31.196.1 - - [16/Jun/2023 19:01:06] "GET / HTTP/1.1" 200 -
+06/16/2023 07:01:10 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=UnboundLocalError("local variable 'keyboard' referenced before assignment")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 30, in start_command
+    text="Я допоможу вам підібрати вигідний тариф", reply_markup=keyboard)
+UnboundLocalError: local variable 'keyboard' referenced before assignment
+06/16/2023 07:01:27 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=UnboundLocalError("local variable 'keyboard' referenced before assignment")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 30, in start_command
+    text="Я допоможу вам підібрати вигідний тариф", reply_markup=keyboard)
+UnboundLocalError: local variable 'keyboard' referenced before assignment
+06/16/2023 07:02:02 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:02:02 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:02:02 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:02:02 PM UTC Start polling.
+06/16/2023 07:02:03 PM UTC 172.31.196.1 - - [16/Jun/2023 19:02:03] "GET / HTTP/1.1" 200 -
+06/16/2023 07:02:06 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 26, in start_command
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/16/2023 07:02:40 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:02:40 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:02:40 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:02:40 PM UTC Start polling.
+06/16/2023 07:02:41 PM UTC 172.31.196.1 - - [16/Jun/2023 19:02:41] "GET / HTTP/1.1" 200 -
+06/16/2023 07:02:43 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 31, in start_command
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/16/2023 07:03:07 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:03:07 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:03:07 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:03:07 PM UTC Start polling.
+06/16/2023 07:03:07 PM UTC 172.31.196.1 - - [16/Jun/2023 19:03:07] "GET / HTTP/1.1" 200 -
+06/16/2023 07:03:10 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 31, in start_command
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/16/2023 07:03:32 PM UTC 172.31.196.1 - - [16/Jun/2023 19:03:32] "GET / HTTP/1.1" 200 -
+06/16/2023 07:03:37 PM UTC 172.31.196.1 - - [16/Jun/2023 19:03:37] "GET / HTTP/1.1" 200 -
+06/16/2023 07:06:18 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:06:18 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:06:19 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:06:19 PM UTC Start polling.
+06/16/2023 07:06:19 PM UTC 172.31.196.1 - - [16/Jun/2023 19:06:19] "GET / HTTP/1.1" 200 -
+06/16/2023 07:59:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.46:80
+06/16/2023 07:59:54 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 07:59:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 07:59:55 PM UTC Start polling.
+06/16/2023 07:59:56 PM UTC 172.31.196.1 - - [16/Jun/2023 19:59:56] "GET / HTTP/1.1" 200 -
+06/16/2023 08:24:52 PM UTC 172.31.196.1 - - [16/Jun/2023 20:24:52] "GET / HTTP/1.1" 200 -
+06/16/2023 09:18:41 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.19:80
+06/16/2023 09:18:41 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 09:18:42 PM UTC 172.31.196.1 - - [16/Jun/2023 21:18:42] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/16/2023 09:18:42 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 09:18:42 PM UTC Start polling.
+06/16/2023 09:18:42 PM UTC 172.31.196.1 - - [16/Jun/2023 21:18:42] "GET / HTTP/1.1" 200 -
+06/16/2023 09:18:42 PM UTC 172.31.196.1 - - [16/Jun/2023 21:18:42] "GET / HTTP/1.1" 200 -
+06/16/2023 10:17:11 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.2:80
+06/16/2023 10:17:11 PM UTC [33mPress CTRL+C to quit[0m
+06/16/2023 10:17:12 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/16/2023 10:17:12 PM UTC Start polling.
+06/16/2023 10:17:13 PM UTC 172.31.196.1 - - [16/Jun/2023 22:17:13] "GET / HTTP/1.1" 200 -
+06/17/2023 07:46:23 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.59:80
+06/17/2023 07:46:23 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:46:23 AM UTC 172.31.196.1 - - [17/Jun/2023 07:46:23] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 07:46:23 AM UTC 172.31.196.1 - - [17/Jun/2023 07:46:23] "GET / HTTP/1.1" 200 -
+06/17/2023 07:46:23 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:46:23 AM UTC Start polling.
+06/17/2023 07:46:24 AM UTC 172.31.196.1 - - [17/Jun/2023 07:46:24] "GET / HTTP/1.1" 200 -
+06/17/2023 08:18:11 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.59:80
+06/17/2023 08:18:11 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:18:11 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:18:11 AM UTC Start polling.
+06/17/2023 08:18:12 AM UTC 172.31.196.1 - - [17/Jun/2023 08:18:12] "GET / HTTP/1.1" 200 -
+06/17/2023 08:18:26 AM UTC Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'InlineKeyboardMarkup' object has no attribute 'as_markup'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 62, in cmd_random
+    reply_markup=builder.as_markup()
+AttributeError: 'InlineKeyboardMarkup' object has no attribute 'as_markup'
+06/17/2023 08:19:22 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.59:80
+06/17/2023 08:19:22 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:19:23 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:19:23 AM UTC Start polling.
+06/17/2023 08:19:23 AM UTC 172.31.196.1 - - [17/Jun/2023 08:19:23] "GET / HTTP/1.1" 200 -
+06/17/2023 11:23:15 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.145:80
+06/17/2023 11:23:15 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 11:23:15 AM UTC 172.31.196.1 - - [17/Jun/2023 11:23:15] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 11:23:15 AM UTC 172.31.196.1 - - [17/Jun/2023 11:23:15] "GET / HTTP/1.1" 200 -
+06/17/2023 11:23:15 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 11:23:15 AM UTC Start polling.
+06/17/2023 11:23:16 AM UTC 172.31.196.1 - - [17/Jun/2023 11:23:16] "GET / HTTP/1.1" 200 -
+06/17/2023 11:42:54 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.145:80
+06/17/2023 11:42:54 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 11:42:55 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 11:42:55 AM UTC Start polling.
+06/17/2023 11:42:55 AM UTC 172.31.196.1 - - [17/Jun/2023 11:42:55] "GET / HTTP/1.1" 200 -
+06/17/2023 11:49:21 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.145:80
+06/17/2023 11:49:21 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 11:49:21 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 11:49:21 AM UTC Start polling.
+06/17/2023 11:49:22 AM UTC 172.31.196.1 - - [17/Jun/2023 11:49:22] "GET / HTTP/1.1" 200 -
+06/17/2023 11:54:24 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 11:54:24 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 11:54:25 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 11:54:25 AM UTC Start polling.
+06/17/2023 11:54:25 AM UTC 172.31.196.1 - - [17/Jun/2023 11:54:25] "GET / HTTP/1.1" 200 -
+06/17/2023 11:56:26 AM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 11:56:26 AM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 11:56:27 AM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 11:56:27 AM UTC Start polling.
+06/17/2023 11:56:27 AM UTC 172.31.196.1 - - [17/Jun/2023 11:56:27] "GET / HTTP/1.1" 200 -
+06/17/2023 12:01:26 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:01:26 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:01:26 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:01:26 PM UTC Start polling.
+06/17/2023 12:01:28 PM UTC 172.31.196.1 - - [17/Jun/2023 12:01:28] "GET / HTTP/1.1" 200 -
+06/17/2023 12:03:00 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:03:00 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:03:00 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:03:00 PM UTC Start polling.
+06/17/2023 12:03:00 PM UTC 172.31.196.1 - - [17/Jun/2023 12:03:00] "GET / HTTP/1.1" 200 -
+06/17/2023 12:03:44 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:03:44 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:03:44 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:03:44 PM UTC Start polling.
+06/17/2023 12:03:45 PM UTC 172.31.196.1 - - [17/Jun/2023 12:03:45] "GET / HTTP/1.1" 200 -
+06/17/2023 12:11:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:11:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:11:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:11:55 PM UTC Start polling.
+06/17/2023 12:11:55 PM UTC 172.31.196.1 - - [17/Jun/2023 12:11:55] "GET / HTTP/1.1" 200 -
+06/17/2023 12:17:03 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:17:03 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:17:04 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:17:04 PM UTC Start polling.
+06/17/2023 12:17:05 PM UTC 172.31.196.1 - - [17/Jun/2023 12:17:05] "GET / HTTP/1.1" 200 -
+06/17/2023 12:20:37 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:20:37 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:20:38 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:20:38 PM UTC Start polling.
+06/17/2023 12:20:38 PM UTC 172.31.196.1 - - [17/Jun/2023 12:20:38] "GET / HTTP/1.1" 200 -
+06/17/2023 12:21:35 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:21:35 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:21:35 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:21:35 PM UTC Start polling.
+06/17/2023 12:21:36 PM UTC 172.31.196.1 - - [17/Jun/2023 12:21:36] "GET / HTTP/1.1" 200 -
+06/17/2023 12:31:59 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:31:59 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:31:59 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:31:59 PM UTC Start polling.
+06/17/2023 12:32:00 PM UTC 172.31.196.1 - - [17/Jun/2023 12:32:00] "GET / HTTP/1.1" 200 -
+06/17/2023 12:34:36 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:34:36 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:34:36 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:34:36 PM UTC Start polling.
+06/17/2023 12:34:37 PM UTC 172.31.196.1 - - [17/Jun/2023 12:34:37] "GET / HTTP/1.1" 200 -
+06/17/2023 12:41:45 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:41:45 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:41:45 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:41:45 PM UTC Start polling.
+06/17/2023 12:41:46 PM UTC 172.31.196.1 - - [17/Jun/2023 12:41:46] "GET / HTTP/1.1" 200 -
+06/17/2023 12:44:29 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:44:29 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:44:29 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:44:29 PM UTC Start polling.
+06/17/2023 12:44:30 PM UTC 172.31.196.1 - - [17/Jun/2023 12:44:30] "GET / HTTP/1.1" 200 -
+06/17/2023 12:46:56 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:46:56 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:46:56 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:46:56 PM UTC Start polling.
+06/17/2023 12:46:57 PM UTC 172.31.196.1 - - [17/Jun/2023 12:46:57] "GET / HTTP/1.1" 200 -
+06/17/2023 12:46:59 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 91, in handle_gadget_selection
+    if gadget:
+NameError: name 'gadget' is not defined
+06/17/2023 12:47:02 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 91, in handle_gadget_selection
+    if gadget:
+NameError: name 'gadget' is not defined
+06/17/2023 12:47:07 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 91, in handle_gadget_selection
+    if gadget:
+NameError: name 'gadget' is not defined
+06/17/2023 12:47:20 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 91, in handle_gadget_selection
+    if gadget:
+NameError: name 'gadget' is not defined
+06/17/2023 12:47:42 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:47:42 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:47:43 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:47:43 PM UTC Start polling.
+06/17/2023 12:47:43 PM UTC 172.31.196.1 - - [17/Jun/2023 12:47:43] "GET / HTTP/1.1" 200 -
+06/17/2023 12:48:05 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 12:48:05 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 12:48:05 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 12:48:05 PM UTC Start polling.
+06/17/2023 12:48:06 PM UTC 172.31.196.1 - - [17/Jun/2023 12:48:06] "GET / HTTP/1.1" 200 -
+06/17/2023 01:17:46 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:17:46 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:17:46 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:17:46 PM UTC Start polling.
+06/17/2023 01:17:48 PM UTC 172.31.196.1 - - [17/Jun/2023 13:17:48] "GET / HTTP/1.1" 200 -
+06/17/2023 01:21:26 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:21:26 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:21:27 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:21:27 PM UTC Start polling.
+06/17/2023 01:21:27 PM UTC 172.31.196.1 - - [17/Jun/2023 13:21:27] "GET / HTTP/1.1" 200 -
+06/17/2023 01:21:44 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 92, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:21:48 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('Object of type UserProfile is not JSON serializable')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 74, in start_poll_callback
+    save_user_profiles(user_profiles)
+  File "main.py", line 73, in save_user_profiles
+    json.dump(user_profiles, file, indent=4)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserProfile is not JSON serializable
+06/17/2023 01:21:59 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('Object of type UserProfile is not JSON serializable')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 74, in start_poll_callback
+    save_user_profiles(user_profiles)
+  File "main.py", line 73, in save_user_profiles
+    json.dump(user_profiles, file, indent=4)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserProfile is not JSON serializable
+06/17/2023 01:22:02 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('Object of type UserProfile is not JSON serializable')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 74, in start_poll_callback
+    save_user_profiles(user_profiles)
+  File "main.py", line 73, in save_user_profiles
+    json.dump(user_profiles, file, indent=4)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserProfile is not JSON serializable
+06/17/2023 01:28:00 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:28:00 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:28:00 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:28:00 PM UTC Start polling.
+06/17/2023 01:28:01 PM UTC 172.31.196.1 - - [17/Jun/2023 13:28:01] "GET / HTTP/1.1" 200 -
+06/17/2023 01:28:07 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:28:07 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:28:08 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:28:08 PM UTC Start polling.
+06/17/2023 01:28:09 PM UTC 172.31.196.1 - - [17/Jun/2023 13:28:09] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 01:28:09 PM UTC 172.31.196.1 - - [17/Jun/2023 13:28:09] "GET / HTTP/1.1" 200 -
+06/17/2023 01:28:18 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('Object of type UserProfile is not JSON serializable')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 87, in start_poll_callback
+    save_user_profiles(user_profiles)
+  File "main.py", line 73, in save_user_profiles
+    json.dump(user_profiles, file, indent=4)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/nix/store/hd4cc9rh83j291r5539hkf6qd8lgiikb-python3-3.10.8/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserProfile is not JSON serializable
+06/17/2023 01:28:42 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 96, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:28:45 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 96, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:28:46 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 96, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:28:48 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 96, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:28:56 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'gadget' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 96, in handle_gadget_selection
+    await query.message.answer(f"Ви обрали пристрій: {gadget} {U_GADGE}")
+NameError: name 'gadget' is not defined
+06/17/2023 01:31:38 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:31:38 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:31:39 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:31:39 PM UTC Start polling.
+06/17/2023 01:31:39 PM UTC 172.31.196.1 - - [17/Jun/2023 13:31:39] "GET / HTTP/1.1" 200 -
+06/17/2023 01:31:43 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=UnboundLocalError("local variable 'save_user_profiles' referenced before assignment")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 72, in start_poll_callback
+    await save_user_profiles(json_file_path, user_profiles)
+UnboundLocalError: local variable 'save_user_profiles' referenced before assignment
+06/17/2023 01:31:50 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=UnboundLocalError("local variable 'save_user_profiles' referenced before assignment")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 72, in start_poll_callback
+    await save_user_profiles(json_file_path, user_profiles)
+UnboundLocalError: local variable 'save_user_profiles' referenced before assignment
+06/17/2023 01:33:34 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:33:34 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:33:35 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:33:35 PM UTC Start polling.
+06/17/2023 01:33:35 PM UTC 172.31.196.1 - - [17/Jun/2023 13:33:35] "GET / HTTP/1.1" 200 -
+06/17/2023 01:33:44 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=UnboundLocalError("local variable 'save_user_profiles' referenced before assignment")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 72, in start_poll_callback
+    await save_user_profiles(json_file_path, user_profiles)
+UnboundLocalError: local variable 'save_user_profiles' referenced before assignment
+06/17/2023 01:37:42 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:37:42 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:37:42 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:37:42 PM UTC Start polling.
+06/17/2023 01:37:43 PM UTC 172.31.196.1 - - [17/Jun/2023 13:37:43] "GET / HTTP/1.1" 200 -
+06/17/2023 01:50:50 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:50:50 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:50:51 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:50:51 PM UTC Start polling.
+06/17/2023 01:50:51 PM UTC 172.31.196.1 - - [17/Jun/2023 13:50:51] "GET / HTTP/1.1" 200 -
+06/17/2023 01:51:05 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'U_GADGET' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 90, in handle_gadget_selection
+    user_profile.GADGET = U_GADGET
+NameError: name 'U_GADGET' is not defined
+06/17/2023 01:53:00 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:53:00 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:53:00 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:53:00 PM UTC Start polling.
+06/17/2023 01:53:01 PM UTC 172.31.196.1 - - [17/Jun/2023 13:53:01] "GET / HTTP/1.1" 200 -
+06/17/2023 01:53:08 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'U_GADGET' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 90, in handle_gadget_selection
+    user_profile.GADGET = U_GADGET
+NameError: name 'U_GADGET' is not defined
+06/17/2023 01:53:45 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 01:53:45 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 01:53:45 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 01:53:45 PM UTC Start polling.
+06/17/2023 01:53:46 PM UTC 172.31.196.1 - - [17/Jun/2023 13:53:46] "GET / HTTP/1.1" 200 -
+06/17/2023 01:53:52 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'UserProfile' object is not subscriptable")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 94, in handle_gadget_selection
+    print (user_profile[user_id])
+TypeError: 'UserProfile' object is not subscriptable
+06/17/2023 02:01:14 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.175:80
+06/17/2023 02:01:14 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:01:14 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:01:14 PM UTC Start polling.
+06/17/2023 02:01:15 PM UTC 172.31.196.1 - - [17/Jun/2023 14:01:15] "GET / HTTP/1.1" 200 -
+06/17/2023 02:19:43 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:19:43 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:19:43 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:19:43 PM UTC Start polling.
+06/17/2023 02:19:44 PM UTC 172.31.196.1 - - [17/Jun/2023 14:19:44] "GET / HTTP/1.1" 200 -
+06/17/2023 02:20:11 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=OperationalError('unrecognized token: "{"')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 100, in start_poll_callback
+    await create_table(user_id)
+  File "main.py", line 21, in create_table
+    cursor.execute('''CREATE TABLE IF NOT EXISTS {table_name}
+sqlite3.OperationalError: unrecognized token: "{"
+06/17/2023 02:20:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:20:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:20:54 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:20:54 PM UTC Start polling.
+06/17/2023 02:20:54 PM UTC 172.31.196.1 - - [17/Jun/2023 14:20:54] "GET / HTTP/1.1" 200 -
+06/17/2023 02:21:03 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'sqlite3.Cursor' object has no attribute 'excute'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 102, in start_poll_callback
+    cursor.excute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id))
+AttributeError: 'sqlite3.Cursor' object has no attribute 'excute'
+06/17/2023 02:21:36 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:21:36 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:21:36 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:21:36 PM UTC Start polling.
+06/17/2023 02:21:37 PM UTC 172.31.196.1 - - [17/Jun/2023 14:21:37] "GET / HTTP/1.1" 200 -
+06/17/2023 02:21:48 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ValueError('parameters are of unsupported type')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 102, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id))
+ValueError: parameters are of unsupported type
+06/17/2023 02:22:23 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:22:23 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:22:24 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:22:24 PM UTC Start polling.
+06/17/2023 02:22:24 PM UTC 172.31.196.1 - - [17/Jun/2023 14:22:24] "GET / HTTP/1.1" 200 -
+06/17/2023 02:22:39 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ValueError('parameters are of unsupported type')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 102, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id))
+ValueError: parameters are of unsupported type
+06/17/2023 02:24:26 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:24:26 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:24:26 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:24:26 PM UTC Start polling.
+06/17/2023 02:24:26 PM UTC 172.31.196.1 - - [17/Jun/2023 14:24:26] "GET / HTTP/1.1" 200 -
+06/17/2023 02:24:39 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'sqlite3.Cursor' object has no attribute 'excute'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 125, in handle_gadget_selection
+    cursor.excute(f"INSERT INTO {table_name} (U_GADGET) VALUES (?)", (U_GADGET))
+AttributeError: 'sqlite3.Cursor' object has no attribute 'excute'
+06/17/2023 02:25:00 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:25:00 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:25:01 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:25:01 PM UTC Start polling.
+06/17/2023 02:25:01 PM UTC 172.31.196.1 - - [17/Jun/2023 14:25:01] "GET / HTTP/1.1" 200 -
+06/17/2023 02:25:26 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ValueError('parameters are of unsupported type')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 125, in handle_gadget_selection
+    cursor.execute(f"INSERT INTO {table_name} (U_GADGET) VALUES (?)", (U_GADGET))
+ValueError: parameters are of unsupported type
+06/17/2023 02:25:41 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:25:41 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:25:41 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:25:41 PM UTC Start polling.
+06/17/2023 02:25:41 PM UTC 172.31.196.1 - - [17/Jun/2023 14:25:41] "GET / HTTP/1.1" 200 -
+06/17/2023 02:28:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:28:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:28:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:28:55 PM UTC Start polling.
+06/17/2023 02:28:55 PM UTC 172.31.196.1 - - [17/Jun/2023 14:28:55] "GET / HTTP/1.1" 200 -
+06/17/2023 02:29:09 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: ''")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 123, in handle_gadget_selection
+    U_GADGET  = int(query.data[len('gadget'):1])
+ValueError: invalid literal for int() with base 10: ''
+06/17/2023 02:29:58 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:29:58 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:29:58 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:29:58 PM UTC Start polling.
+06/17/2023 02:29:59 PM UTC 172.31.196.1 - - [17/Jun/2023 14:29:59] "GET / HTTP/1.1" 200 -
+06/17/2023 02:35:16 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:35:16 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:35:16 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:35:16 PM UTC Start polling.
+06/17/2023 02:35:17 PM UTC 172.31.196.1 - - [17/Jun/2023 14:35:17] "GET / HTTP/1.1" 200 -
+06/17/2023 02:54:18 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:54:18 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:54:18 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:54:18 PM UTC Start polling.
+06/17/2023 02:54:19 PM UTC 172.31.196.1 - - [17/Jun/2023 14:54:19] "GET / HTTP/1.1" 200 -
+06/17/2023 02:56:30 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 02:56:30 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 02:56:31 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 02:56:31 PM UTC Start polling.
+06/17/2023 02:56:31 PM UTC 172.31.196.1 - - [17/Jun/2023 14:56:31] "GET / HTTP/1.1" 200 -
+06/17/2023 03:10:25 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:10:25 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:10:26 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:10:26 PM UTC Start polling.
+06/17/2023 03:10:27 PM UTC 172.31.196.1 - - [17/Jun/2023 15:10:27] "GET / HTTP/1.1" 200 -
+06/17/2023 03:11:18 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:11:18 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:11:18 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:11:18 PM UTC Start polling.
+06/17/2023 03:11:18 PM UTC 172.31.196.1 - - [17/Jun/2023 15:11:18] "GET / HTTP/1.1" 200 -
+06/17/2023 03:11:35 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'CallbackQuery' object has no attribute 'mesage'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 140, in handle_gadget_selection
+    await query.mesage.answer("Детальніше і nідключити тариф"
+AttributeError: 'CallbackQuery' object has no attribute 'mesage'
+06/17/2023 03:11:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:11:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:11:54 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:11:54 PM UTC Start polling.
+06/17/2023 03:11:55 PM UTC 172.31.196.1 - - [17/Jun/2023 15:11:55] "GET / HTTP/1.1" 200 -
+06/17/2023 03:14:51 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:14:51 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:14:51 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:14:51 PM UTC Start polling.
+06/17/2023 03:14:52 PM UTC 172.31.196.1 - - [17/Jun/2023 15:14:52] "GET / HTTP/1.1" 200 -
+06/17/2023 03:22:12 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:22:12 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:22:12 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:22:12 PM UTC Start polling.
+06/17/2023 03:22:12 PM UTC 172.31.196.1 - - [17/Jun/2023 15:22:12] "GET / HTTP/1.1" 200 -
+06/17/2023 03:23:14 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:23:14 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:23:15 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:23:15 PM UTC Start polling.
+06/17/2023 03:23:15 PM UTC 172.31.196.1 - - [17/Jun/2023 15:23:15] "GET / HTTP/1.1" 200 -
+06/17/2023 03:23:38 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:23:38 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:23:39 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:23:39 PM UTC Start polling.
+06/17/2023 03:23:39 PM UTC 172.31.196.1 - - [17/Jun/2023 15:23:39] "GET / HTTP/1.1" 200 -
+06/17/2023 03:26:44 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:26:44 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:26:45 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:26:45 PM UTC Start polling.
+06/17/2023 03:26:45 PM UTC 172.31.196.1 - - [17/Jun/2023 15:26:45] "GET / HTTP/1.1" 200 -
+06/17/2023 03:27:09 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:27:09 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:27:10 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:27:10 PM UTC Start polling.
+06/17/2023 03:27:10 PM UTC 172.31.196.1 - - [17/Jun/2023 15:27:10] "GET / HTTP/1.1" 200 -
+06/17/2023 03:28:30 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:28:30 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:28:30 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:28:30 PM UTC Start polling.
+06/17/2023 03:28:30 PM UTC 172.31.196.1 - - [17/Jun/2023 15:28:30] "GET / HTTP/1.1" 200 -
+06/17/2023 03:32:19 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:32:19 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:32:19 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:32:19 PM UTC Start polling.
+06/17/2023 03:32:19 PM UTC 172.31.196.1 - - [17/Jun/2023 15:32:19] "GET / HTTP/1.1" 200 -
+06/17/2023 03:38:13 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:38:13 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:38:13 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:38:13 PM UTC Start polling.
+06/17/2023 03:38:14 PM UTC 172.31.196.1 - - [17/Jun/2023 15:38:14] "GET / HTTP/1.1" 200 -
+06/17/2023 03:40:03 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:40:03 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:40:03 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:40:03 PM UTC Start polling.
+06/17/2023 03:40:04 PM UTC 172.31.196.1 - - [17/Jun/2023 15:40:04] "GET / HTTP/1.1" 200 -
+06/17/2023 03:40:07 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'ReplyKeyboardMarkup' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 186, in handle_gadget_selection
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+NameError: name 'ReplyKeyboardMarkup' is not defined
+06/17/2023 03:43:48 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:43:48 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:43:48 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:43:48 PM UTC Start polling.
+06/17/2023 03:43:49 PM UTC 172.31.196.1 - - [17/Jun/2023 15:43:49] "GET / HTTP/1.1" 200 -
+06/17/2023 03:59:59 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 03:59:59 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 03:59:59 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 03:59:59 PM UTC Start polling.
+06/17/2023 04:00:00 PM UTC 172.31.196.1 - - [17/Jun/2023 16:00:00] "GET / HTTP/1.1" 200 -
+06/17/2023 04:02:02 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'data_mapping' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 213, in handle_phone_frequency
+    values = data_mapping[data]
+NameError: name 'data_mapping' is not defined
+06/17/2023 04:02:32 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:02:32 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:02:32 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:02:32 PM UTC Start polling.
+06/17/2023 04:02:33 PM UTC 172.31.196.1 - - [17/Jun/2023 16:02:33] "GET / HTTP/1.1" 200 -
+06/17/2023 04:10:24 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:10:24 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:10:24 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:10:24 PM UTC Start polling.
+06/17/2023 04:10:24 PM UTC 172.31.196.1 - - [17/Jun/2023 16:10:24] "GET / HTTP/1.1" 200 -
+06/17/2023 04:20:31 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:20:31 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:20:31 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:20:31 PM UTC Start polling.
+06/17/2023 04:20:32 PM UTC 172.31.196.1 - - [17/Jun/2023 16:20:32] "GET / HTTP/1.1" 200 -
+06/17/2023 04:36:06 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:36:06 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:36:07 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:36:07 PM UTC Start polling.
+06/17/2023 04:36:07 PM UTC 172.31.196.1 - - [17/Jun/2023 16:36:07] "GET / HTTP/1.1" 200 -
+06/17/2023 04:38:36 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:38:36 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:38:36 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:38:36 PM UTC Start polling.
+06/17/2023 04:38:37 PM UTC 172.31.196.1 - - [17/Jun/2023 16:38:37] "GET / HTTP/1.1" 200 -
+06/17/2023 04:39:10 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'OFFNET_MIN' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 244, in handle_offnet_frequency
+    cursor.execute(f"INSERT INTO {table_name} (OFFNET_MIN) VALUES (?)", (OFFNET_MIN,))
+NameError: name 'OFFNET_MIN' is not defined
+06/17/2023 04:41:13 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.111:80
+06/17/2023 04:41:13 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 04:41:14 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 04:41:14 PM UTC Start polling.
+06/17/2023 04:41:15 PM UTC 172.31.196.1 - - [17/Jun/2023 16:41:15] "GET / HTTP/1.1" 200 -
+06/17/2023 05:11:42 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.86:80
+06/17/2023 05:11:42 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 05:11:42 PM UTC 172.31.196.1 - - [17/Jun/2023 17:11:42] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 05:11:42 PM UTC 172.31.196.1 - - [17/Jun/2023 17:11:42] "GET / HTTP/1.1" 200 -
+06/17/2023 05:11:43 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 05:11:43 PM UTC Start polling.
+06/17/2023 05:11:45 PM UTC 172.31.196.1 - - [17/Jun/2023 17:11:45] "GET / HTTP/1.1" 200 -
+06/17/2023 06:18:49 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:18:49 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:18:50 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:18:50 PM UTC Start polling.
+06/17/2023 06:18:50 PM UTC 172.31.196.1 - - [17/Jun/2023 18:18:50] "GET / HTTP/1.1" 200 -
+06/17/2023 06:20:16 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'button_aditionals_option1' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 304, in handle_roaming
+    keyboard.add(button_aditionals_option1, button_aditionals_option2)
+NameError: name 'button_aditionals_option1' is not defined
+06/17/2023 06:25:58 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:25:58 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:25:59 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:25:59 PM UTC Start polling.
+06/17/2023 06:25:59 PM UTC 172.31.196.1 - - [17/Jun/2023 18:25:59] "GET / HTTP/1.1" 200 -
+06/17/2023 06:26:29 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:26:29 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:26:30 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:26:30 PM UTC Start polling.
+06/17/2023 06:26:30 PM UTC 172.31.196.1 - - [17/Jun/2023 18:26:30] "GET / HTTP/1.1" 200 -
+06/17/2023 06:26:57 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:26:57 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:26:58 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:26:58 PM UTC Start polling.
+06/17/2023 06:26:58 PM UTC 172.31.196.1 - - [17/Jun/2023 18:26:58] "GET / HTTP/1.1" 200 -
+06/17/2023 06:31:51 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:31:51 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:31:51 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:31:51 PM UTC Start polling.
+06/17/2023 06:31:52 PM UTC 172.31.196.1 - - [17/Jun/2023 18:31:52] "GET / HTTP/1.1" 200 -
+06/17/2023 06:32:17 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'button_price_option1' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 336, in handle_data
+    keyboard.add(button_price_option1)
+NameError: name 'button_price_option1' is not defined
+06/17/2023 06:42:21 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:42:21 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:42:21 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:42:21 PM UTC Start polling.
+06/17/2023 06:42:22 PM UTC 172.31.196.1 - - [17/Jun/2023 18:42:22] "GET / HTTP/1.1" 200 -
+06/17/2023 06:42:57 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'price_mapping' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 356, in handle_data
+    values = price_mapping[data]
+NameError: name 'price_mapping' is not defined
+06/17/2023 06:49:30 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:49:30 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:49:31 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:49:31 PM UTC Start polling.
+06/17/2023 06:49:31 PM UTC 172.31.196.1 - - [17/Jun/2023 18:49:31] "GET / HTTP/1.1" 200 -
+06/17/2023 06:51:42 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:51:42 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:51:42 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:51:42 PM UTC Start polling.
+06/17/2023 06:51:42 PM UTC 172.31.196.1 - - [17/Jun/2023 18:51:42] "GET / HTTP/1.1" 200 -
+06/17/2023 06:55:37 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:55:37 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:55:38 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:55:38 PM UTC Start polling.
+06/17/2023 06:55:38 PM UTC 172.31.196.1 - - [17/Jun/2023 18:55:38] "GET / HTTP/1.1" 200 -
+06/17/2023 06:55:47 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:55:47 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:55:47 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:55:47 PM UTC Start polling.
+06/17/2023 06:55:48 PM UTC 172.31.196.1 - - [17/Jun/2023 18:55:48] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 06:55:48 PM UTC 172.31.196.1 - - [17/Jun/2023 18:55:48] "GET / HTTP/1.1" 200 -
+06/17/2023 06:57:40 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:57:40 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:57:40 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:57:40 PM UTC Start polling.
+06/17/2023 06:57:41 PM UTC 172.31.196.1 - - [17/Jun/2023 18:57:41] "GET / HTTP/1.1" 200 -
+06/17/2023 06:59:43 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 06:59:43 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 06:59:43 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 06:59:43 PM UTC Start polling.
+06/17/2023 06:59:43 PM UTC 172.31.196.1 - - [17/Jun/2023 18:59:43] "GET / HTTP/1.1" 200 -
+06/17/2023 07:08:09 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:08:09 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:08:09 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:08:09 PM UTC Start polling.
+06/17/2023 07:08:10 PM UTC 172.31.196.1 - - [17/Jun/2023 19:08:10] "GET / HTTP/1.1" 200 -
+06/17/2023 07:12:05 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:12:05 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:12:05 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:12:05 PM UTC Start polling.
+06/17/2023 07:12:05 PM UTC 172.31.196.1 - - [17/Jun/2023 19:12:05] "GET / HTTP/1.1" 200 -
+06/17/2023 07:12:37 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-62' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'price_mapping' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 356, in hendler_go_price
+    values = price_mapping[data]
+NameError: name 'price_mapping' is not defined
+06/17/2023 07:15:19 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:15:19 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:15:20 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:15:20 PM UTC Start polling.
+06/17/2023 07:15:20 PM UTC 172.31.196.1 - - [17/Jun/2023 19:15:20] "GET / HTTP/1.1" 200 -
+06/17/2023 07:15:49 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-62' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'price_mapping' is not defined")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 356, in hendler_go_price
+    values = price_mapping[data]
+NameError: name 'price_mapping' is not defined
+06/17/2023 07:19:35 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:19:35 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:19:36 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:19:36 PM UTC Start polling.
+06/17/2023 07:19:37 PM UTC 172.31.196.1 - - [17/Jun/2023 19:19:37] "GET / HTTP/1.1" 200 -
+06/17/2023 07:20:03 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=KeyError('DATA_MAX')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 358, in handle_price
+    PRICE_MAX = values["DATA_MAX"]
+KeyError: 'DATA_MAX'
+06/17/2023 07:20:31 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:20:31 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:20:31 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:20:31 PM UTC Start polling.
+06/17/2023 07:20:32 PM UTC 172.31.196.1 - - [17/Jun/2023 19:20:32] "GET / HTTP/1.1" 200 -
+06/17/2023 07:20:59 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:20:59 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:21:00 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:21:00 PM UTC Start polling.
+06/17/2023 07:21:00 PM UTC 172.31.196.1 - - [17/Jun/2023 19:21:00] "GET / HTTP/1.1" 200 -
+06/17/2023 07:25:15 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-78' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=KeyError('121')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 356, in handle_price
+    values = price_mapping[data]
+KeyError: '121'
+06/17/2023 07:25:16 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-82' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=KeyError('501')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 356, in handle_price
+    values = price_mapping[data]
+KeyError: '501'
+06/17/2023 07:31:40 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:31:40 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:31:40 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:31:40 PM UTC Start polling.
+06/17/2023 07:31:40 PM UTC 172.31.196.1 - - [17/Jun/2023 19:31:40] "GET / HTTP/1.1" 200 -
+06/17/2023 07:37:55 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:37:55 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:37:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:37:55 PM UTC Start polling.
+06/17/2023 07:37:56 PM UTC 172.31.196.1 - - [17/Jun/2023 19:37:56] "GET / HTTP/1.1" 200 -
+06/17/2023 07:44:25 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:44:25 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:44:26 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:44:26 PM UTC Start polling.
+06/17/2023 07:44:27 PM UTC 172.31.196.1 - - [17/Jun/2023 19:44:27] "GET / HTTP/1.1" 200 -
+06/17/2023 07:44:34 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:44:34 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:44:34 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:44:34 PM UTC Start polling.
+06/17/2023 07:44:35 PM UTC 172.31.196.1 - - [17/Jun/2023 19:44:35] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 07:44:35 PM UTC 172.31.196.1 - - [17/Jun/2023 19:44:35] "GET / HTTP/1.1" 200 -
+06/17/2023 07:44:53 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:45:08 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:45:10 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:46:56 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:46:56 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:46:56 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:46:56 PM UTC Start polling.
+06/17/2023 07:46:57 PM UTC 172.31.196.1 - - [17/Jun/2023 19:46:57] "GET / HTTP/1.1" 200 -
+06/17/2023 07:47:07 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:48:19 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:48:19 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:48:22 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:48:22 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:48:22 PM UTC 172.31.196.1 - - [17/Jun/2023 19:48:22] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 07:48:22 PM UTC 172.31.196.1 - - [17/Jun/2023 19:48:22] "GET / HTTP/1.1" 200 -
+06/17/2023 07:48:23 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:48:23 PM UTC Start polling.
+06/17/2023 07:48:24 PM UTC 172.31.196.1 - - [17/Jun/2023 19:48:24] "GET / HTTP/1.1" 200 -
+06/17/2023 07:50:31 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:50:31 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:50:31 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:50:31 PM UTC Start polling.
+06/17/2023 07:50:32 PM UTC 172.31.196.1 - - [17/Jun/2023 19:50:32] "GET / HTTP/1.1" 200 -
+06/17/2023 07:50:37 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:51:03 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 07:55:10 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:55:10 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:55:10 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:55:10 PM UTC Start polling.
+06/17/2023 07:55:10 PM UTC 172.31.196.1 - - [17/Jun/2023 19:55:10] "GET / HTTP/1.1" 200 -
+06/17/2023 07:57:32 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:57:32 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:57:33 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:57:33 PM UTC Start polling.
+06/17/2023 07:57:33 PM UTC 172.31.196.1 - - [17/Jun/2023 19:57:33] "GET / HTTP/1.1" 200 -
+06/17/2023 07:58:08 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 07:58:08 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 07:58:08 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 07:58:08 PM UTC Start polling.
+06/17/2023 07:58:09 PM UTC 172.31.196.1 - - [17/Jun/2023 19:58:09] "GET / HTTP/1.1" 200 -
+06/17/2023 08:04:43 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:04:43 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:04:43 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:04:43 PM UTC Start polling.
+06/17/2023 08:04:44 PM UTC 172.31.196.1 - - [17/Jun/2023 20:04:44] "GET / HTTP/1.1" 200 -
+06/17/2023 08:04:59 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ProgrammingError('Cannot operate on a closed database.')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 267, in handle_roaming
+    cursor.execute(f"INSERT INTO {table_name} (ROAMING) VALUES (?)", (ROAMING,))
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+06/17/2023 08:05:01 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ProgrammingError('Cannot operate on a closed database.')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 267, in handle_roaming
+    cursor.execute(f"INSERT INTO {table_name} (ROAMING) VALUES (?)", (ROAMING,))
+sqlite3.ProgrammingError: Cannot operate on a closed database.
+06/17/2023 08:05:47 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:05:47 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:05:48 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:05:48 PM UTC Start polling.
+06/17/2023 08:05:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:05:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:05:54 PM UTC 172.31.196.1 - - [17/Jun/2023 20:05:54] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 08:05:54 PM UTC 172.31.196.1 - - [17/Jun/2023 20:05:54] "GET / HTTP/1.1" 200 -
+06/17/2023 08:05:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:05:55 PM UTC Start polling.
+06/17/2023 08:05:56 PM UTC 172.31.196.1 - - [17/Jun/2023 20:05:56] "GET / HTTP/1.1" 200 -
+06/17/2023 08:06:22 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:06:22 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:06:22 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:06:22 PM UTC Start polling.
+06/17/2023 08:06:23 PM UTC 172.31.196.1 - - [17/Jun/2023 20:06:23] "GET / HTTP/1.1" 200 -
+06/17/2023 08:06:45 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'int' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 295, in handle_data
+    for DATA_MIN in DATA_MIN:
+TypeError: 'int' object is not iterable
+06/17/2023 08:07:48 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:07:48 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:07:49 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:07:49 PM UTC Start polling.
+06/17/2023 08:07:51 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:07:51 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:07:52 PM UTC 172.31.196.1 - - [17/Jun/2023 20:07:52] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+06/17/2023 08:07:52 PM UTC 172.31.196.1 - - [17/Jun/2023 20:07:52] "GET / HTTP/1.1" 200 -
+06/17/2023 08:07:52 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:07:52 PM UTC Start polling.
+06/17/2023 08:07:52 PM UTC 172.31.196.1 - - [17/Jun/2023 20:07:52] "GET / HTTP/1.1" 200 -
+06/17/2023 08:08:19 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:08:19 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:08:20 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:08:20 PM UTC Start polling.
+06/17/2023 08:08:20 PM UTC 172.31.196.1 - - [17/Jun/2023 20:08:20] "GET / HTTP/1.1" 200 -
+06/17/2023 08:08:40 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-70' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'int' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 365, in handle_price
+    for PRICE_MIN in PRICE_MIN:
+TypeError: 'int' object is not iterable
+06/17/2023 08:08:50 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-74' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'int' object is not iterable")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 365, in handle_price
+    for PRICE_MIN in PRICE_MIN:
+TypeError: 'int' object is not iterable
+06/17/2023 08:10:03 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:10:03 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:10:04 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:10:04 PM UTC Start polling.
+06/17/2023 08:10:04 PM UTC 172.31.196.1 - - [17/Jun/2023 20:10:04] "GET / HTTP/1.1" 200 -
+06/17/2023 08:12:34 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:12:34 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:12:34 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:12:34 PM UTC Start polling.
+06/17/2023 08:12:35 PM UTC 172.31.196.1 - - [17/Jun/2023 20:12:35] "GET / HTTP/1.1" 200 -
+06/17/2023 08:13:01 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Unsupported parse_mode')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 402, in handle_price
+    await query.message.answer(str(data_array), ONNET_MIN)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Unsupported parse_mode
+06/17/2023 08:13:50 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:13:50 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:13:51 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:13:51 PM UTC Start polling.
+06/17/2023 08:13:51 PM UTC 172.31.196.1 - - [17/Jun/2023 20:13:51] "GET / HTTP/1.1" 200 -
+06/17/2023 08:13:59 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=IntegrityError('UNIQUE constraint failed: table_1300417787.user_id')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 103, in start_poll_callback
+    cursor.execute(f"INSERT INTO {table_name} (user_id) VALUES (?)", (user_id,))
+sqlite3.IntegrityError: UNIQUE constraint failed: table_1300417787.user_id
+06/17/2023 08:15:01 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:15:01 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:15:02 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:15:02 PM UTC Start polling.
+06/17/2023 08:15:02 PM UTC 172.31.196.1 - - [17/Jun/2023 20:15:02] "GET / HTTP/1.1" 200 -
+06/17/2023 08:15:30 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-74' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Unsupported parse_mode')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 402, in handle_price
+    await query.message.answer(str(data_array), str(ONNET_MIN))
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Unsupported parse_mode
+06/17/2023 08:20:58 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:20:58 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:20:58 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:20:58 PM UTC Start polling.
+06/17/2023 08:20:58 PM UTC 172.31.196.1 - - [17/Jun/2023 20:20:58] "GET / HTTP/1.1" 200 -
+06/17/2023 08:21:48 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:21:48 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:21:48 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:21:48 PM UTC Start polling.
+06/17/2023 08:21:49 PM UTC 172.31.196.1 - - [17/Jun/2023 20:21:49] "GET / HTTP/1.1" 200 -
+06/17/2023 08:22:20 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-67' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Unsupported parse_mode')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 404, in handle_price
+    await query.message.answer(str(data_array), str(ONNET_MIN))
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Unsupported parse_mode
+06/17/2023 08:23:56 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:23:56 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:23:57 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:23:57 PM UTC Start polling.
+06/17/2023 08:23:57 PM UTC 172.31.196.1 - - [17/Jun/2023 20:23:57] "GET / HTTP/1.1" 200 -
+06/17/2023 08:24:58 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:24:58 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:24:59 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:24:59 PM UTC Start polling.
+06/17/2023 08:24:59 PM UTC 172.31.196.1 - - [17/Jun/2023 20:24:59] "GET / HTTP/1.1" 200 -
+06/17/2023 08:25:35 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Unsupported parse_mode')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 405, in handle_price
+    await query.message.answer(str(data_array), str(ONNET_MIN))
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Unsupported parse_mode
+06/17/2023 08:28:54 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:28:54 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:28:55 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:28:55 PM UTC Start polling.
+06/17/2023 08:28:56 PM UTC 172.31.196.1 - - [17/Jun/2023 20:28:56] "GET / HTTP/1.1" 200 -
+06/17/2023 08:29:08 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("create_table() missing 1 required positional argument: 'user_id'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 101, in start_poll_callback
+    await create_table(user_id)
+TypeError: create_table() missing 1 required positional argument: 'user_id'
+06/17/2023 08:29:14 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("create_table() missing 1 required positional argument: 'user_id'")>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 101, in start_poll_callback
+    await create_table(user_id)
+TypeError: create_table() missing 1 required positional argument: 'user_id'
+06/17/2023 08:30:20 PM UTC [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.6:80
+06/17/2023 08:30:20 PM UTC [33mPress CTRL+C to quit[0m
+06/17/2023 08:30:21 PM UTC Bot: Підібрати тариф Lifecell [@lifecell_th_bot]
+06/17/2023 08:30:21 PM UTC Start polling.
+06/17/2023 08:30:22 PM UTC 172.31.196.1 - - [17/Jun/2023 20:30:22] "GET / HTTP/1.1" 200 -
+06/17/2023 08:30:45 PM UTC Task exception was never retrieved
+future: <Task finished name='Task-70' coro=<Dispatcher._process_polling_updates() done, defined at /home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=BadRequest('Unsupported parse_mode')>
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "main.py", line 404, in handle_price
+    await query.message.answer(str(data_array), str(ONNET_MIN))
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Unsupported parse_mode
+06/17/2023 08:36:45 PM UTC Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/home/runner/STALOlifecell/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ServerDisconnectedError: Server disconnected
